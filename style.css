@@ -1,0 +1,27 @@
+@import url('https://fonts.cdnfonts.com/css/lcd');
+
+body {
+    font-family: 'LCDMono2', sans-serif;
+    color: #26ae26;
+    display: flex;
+    justify-content: center;
+
+}
+
+#chrono {
+    display: block;
+    justify-content: center;
+    border-radius: 50%;
+    background-color: #145214;
+    text-align: center;
+}
+
+.minutes,
+.secondes,
+.centiems {
+    width: 50px;
+    height: 50px;
+    border: 1px solid black;
+    display: table-cell;
+    vertical-align: middle;   
+}
